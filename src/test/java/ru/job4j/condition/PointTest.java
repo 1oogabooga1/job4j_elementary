@@ -16,6 +16,7 @@ class PointTest {
         double out = Point.distance(x1, y1, x2, y2);
         assertThat(out).isEqualTo(expected, withPrecision(0.01));
     }
+
     @Test
     void when11to22then1dot41() {
         double expected = 1.41;
@@ -26,6 +27,7 @@ class PointTest {
         double out = Point.distance(x1, y1, x2, y2);
         assertThat(out).isEqualTo(expected, withPrecision(0.01));
     }
+
     @Test
     void when32to11then2dot23() {
         double expected = 2.23;
@@ -36,6 +38,7 @@ class PointTest {
         double out = Point.distance(x1, y1, x2, y2);
         assertThat(out).isEqualTo(expected, withPrecision(0.01));
     }
+
     @Test
     void when42to32then1() {
         double expected = 1;
@@ -46,6 +49,7 @@ class PointTest {
         double out = Point.distance(x1, y1, x2, y2);
         assertThat(out).isEqualTo(expected, withPrecision(0.01));
     }
+
     @Test
     void when99to22then9dot89() {
         double expected = 9.89;
