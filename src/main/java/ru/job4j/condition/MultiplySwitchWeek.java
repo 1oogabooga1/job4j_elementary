@@ -4,12 +4,12 @@ public class MultiplySwitchWeek {
     public static int numberOfDay(String name) {
         return switch (name) {
             case "Понедельник", "Monday" -> 1;
-            case "Tuesday" -> 2;
-            case "Wednesday" -> 3;
-            case "Thursday" -> 4;
-            case "Friday" -> 5;
-            case "Saturday" -> 6;
-            case "Sunday" -> 7;
+            case "Tuesday", "Вторник" -> 2;
+            case "Wednesday", "Среда" -> 3;
+            case "Thursday", "Четверг" -> 4;
+            case "Friday", "Пятница" -> 5;
+            case "Saturday", "Суббота" -> 6;
+            case "Sunday", "Воскресенье" -> 7;
             default -> -1;
         };
     }
