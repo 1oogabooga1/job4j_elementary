@@ -15,6 +15,6 @@ public class SimpleStringEncoder {
                 counter = 1;
             }
         }
-        return result = counter > 1 ? (result + symbol + counter) : (result + symbol);
+        return counter > 1 ? (result + symbol + counter) : (result + symbol);
     }
 }
