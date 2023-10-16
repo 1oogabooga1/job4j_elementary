@@ -1,5 +1,7 @@
 package ru.job4j.array;
 
+import java.util.Locale;
+
 public class SimpleStringEncoder {
 
     public static String encode(String input) {
