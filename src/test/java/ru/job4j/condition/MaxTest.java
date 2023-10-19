@@ -44,8 +44,8 @@ class MaxTest {
     }
 
     @Test
-    void whenMax5To6and7and2Then7() {
-        int left = 5;
+    void whenMax4To6and7and2Then7() {
+        int left = 4;
         int right = 6;
         int forth = 2;
         int third = 7;
